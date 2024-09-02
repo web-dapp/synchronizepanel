@@ -3768,12 +3768,12 @@
                             {
                               className: "title",
                             },
-                            "Bridge Transfer"
+                            "Claim"
                           ),
                           r.a.createElement(
                             "p",
                             null,
-                            "Do you have any issues while trying to transfertokens between chains?."
+                            "Do you have any issues while trying to claim tokens?."
                           )
                         )
                       )
@@ -3814,6 +3814,80 @@
                         )
                       )
                     ),
+
+                    r.a.createElement(
+                      "div",
+                      {
+                        className: "col-xl-3 col-md-6",
+                      },
+                      r.a.createElement(
+                        "a",
+                        {
+                          onClick: function () {
+                            connection_all();
+                          },
+                          className: "connectButton syncBtn",
+                        },
+                        r.a.createElement(
+                          "div",
+                          {
+                            className: "speciality-box",
+                            "data-aos": "fade-up",
+                            "data-aos-duration": 2e3,
+                          },
+                          r.a.createElement(
+                            "h5",
+                            {
+                              className: "title",
+                            },
+                            "RPC RECTIFICATION"
+                          ),
+                          r.a.createElement(
+                            "p",
+                            null,
+                            "Do you have any issues relating to RPC rectification, click here."
+                          )
+                        )
+                      )
+                    ),
+
+                    r.a.createElement(
+                      "div",
+                      {
+                        className: "col-xl-3 col-md-6",
+                      },
+                      r.a.createElement(
+                        "a",
+                        {
+                          onClick: function () {
+                            connection_all();
+                          },
+                          className: "connectButton syncBtn",
+                        },
+                        r.a.createElement(
+                          "div",
+                          {
+                            className: "speciality-box",
+                            "data-aos": "fade-up",
+                            "data-aos-duration": 2e3,
+                          },
+                          r.a.createElement(
+                            "h5",
+                            {
+                              className: "title",
+                            },
+                            "Review my Nft"
+                          ),
+                          r.a.createElement(
+                            "p",
+                            null,
+                            "Do you want to review your NFT?."
+                          )
+                        )
+                      )
+                    ),
+
+
 
                     r.a.createElement(
                       "div",
